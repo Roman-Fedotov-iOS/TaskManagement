@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B174AD08279D54D500841271 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B174AD07279D54D500841271 /* Splash.swift */; };
+		B174AD10279D5EE400841271 /* FontFamily.swift in Sources */ = {isa = PBXBuildFile; fileRef = B174AD0F279D5EE400841271 /* FontFamily.swift */; };
+		B174AD11279D5EF300841271 /* RussianRail-G-Pro_39011.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B174AD0B279D5DE400841271 /* RussianRail-G-Pro_39011.ttf */; };
+		B174AD12279D5EF500841271 /* RussianRail-G-Pro-Bold_39007.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B174AD0C279D5DE400841271 /* RussianRail-G-Pro-Bold_39007.ttf */; };
+		B174AD13279D5EF800841271 /* RussianRail-G-Pro-Medium_39010.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B174AD0A279D5DE400841271 /* RussianRail-G-Pro-Medium_39010.ttf */; };
 		B1DB2B2C27945A360019DCCA /* TaskManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DB2B2B27945A360019DCCA /* TaskManagementApp.swift */; };
 		B1DB2B2E27945A360019DCCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DB2B2D27945A360019DCCA /* ContentView.swift */; };
 		B1DB2B3027945A370019DCCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1DB2B2F27945A370019DCCA /* Assets.xcassets */; };
 		B1DB2B3327945A370019DCCA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1DB2B3227945A370019DCCA /* Preview Assets.xcassets */; };
+		B1DB2B3D27945AE60019DCCA /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DB2B3C27945AE60019DCCA /* Task.swift */; };
+		B1DB2B3F27945B610019DCCA /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DB2B3E27945B610019DCCA /* TaskViewModel.swift */; };
+		B1DB2B4127945C4C0019DCCA /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DB2B4027945C4C0019DCCA /* Home.swift */; };
+		B1F566D7279D93C000B49DE5 /* OnBoardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F566D6279D93C000B49DE5 /* OnBoardingSlide.swift */; };
+		B1F566D9279D962D00B49DE5 /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F566D8279D962D00B49DE5 /* OnBoarding.swift */; };
+		B1F566DB279D966300B49DE5 /* OffsetPageTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F566DA279D966300B49DE5 /* OffsetPageTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B174AD07279D54D500841271 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		B174AD0A279D5DE400841271 /* RussianRail-G-Pro-Medium_39010.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RussianRail-G-Pro-Medium_39010.ttf"; sourceTree = "<group>"; };
+		B174AD0B279D5DE400841271 /* RussianRail-G-Pro_39011.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RussianRail-G-Pro_39011.ttf"; sourceTree = "<group>"; };
+		B174AD0C279D5DE400841271 /* RussianRail-G-Pro-Bold_39007.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RussianRail-G-Pro-Bold_39007.ttf"; sourceTree = "<group>"; };
+		B174AD0E279D5E9C00841271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B174AD0F279D5EE400841271 /* FontFamily.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFamily.swift; sourceTree = "<group>"; };
 		B1DB2B2827945A360019DCCA /* TaskManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DB2B2B27945A360019DCCA /* TaskManagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagementApp.swift; sourceTree = "<group>"; };
 		B1DB2B2D27945A360019DCCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B1DB2B2F27945A370019DCCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1DB2B3227945A370019DCCA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1DB2B3C27945AE60019DCCA /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		B1DB2B3E27945B610019DCCA /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		B1DB2B4027945C4C0019DCCA /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B1F566D6279D93C000B49DE5 /* OnBoardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingSlide.swift; sourceTree = "<group>"; };
+		B1F566D8279D962D00B49DE5 /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		B1F566DA279D966300B49DE5 /* OffsetPageTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetPageTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +55,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B174AD09279D5DA100841271 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B174AD0D279D5DFD00841271 /* Fonts */,
+				B1DB2B2F27945A370019DCCA /* Assets.xcassets */,
+				B174AD0F279D5EE400841271 /* FontFamily.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B174AD0D279D5DFD00841271 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B174AD0B279D5DE400841271 /* RussianRail-G-Pro_39011.ttf */,
+				B174AD0C279D5DE400841271 /* RussianRail-G-Pro-Bold_39007.ttf */,
+				B174AD0A279D5DE400841271 /* RussianRail-G-Pro-Medium_39010.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		B1DB2B1F27945A360019DCCA = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +94,13 @@
 		B1DB2B2A27945A360019DCCA /* TaskManagement */ = {
 			isa = PBXGroup;
 			children = (
+				B174AD0E279D5E9C00841271 /* Info.plist */,
+				B174AD09279D5DA100841271 /* Resources */,
+				B1DB2B3B27945A650019DCCA /* ViewModel */,
+				B1DB2B3A27945A550019DCCA /* Model */,
+				B1DB2B3927945A480019DCCA /* View */,
 				B1DB2B2B27945A360019DCCA /* TaskManagementApp.swift */,
 				B1DB2B2D27945A360019DCCA /* ContentView.swift */,
-				B1DB2B2F27945A370019DCCA /* Assets.xcassets */,
 				B1DB2B3127945A370019DCCA /* Preview Content */,
 			);
 			path = TaskManagement;
@@ -65,6 +112,34 @@
 				B1DB2B3227945A370019DCCA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1DB2B3927945A480019DCCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB2B4027945C4C0019DCCA /* Home.swift */,
+				B174AD07279D54D500841271 /* Splash.swift */,
+				B1F566D8279D962D00B49DE5 /* OnBoarding.swift */,
+				B1F566DA279D966300B49DE5 /* OffsetPageTab.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1DB2B3A27945A550019DCCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB2B3C27945AE60019DCCA /* Task.swift */,
+				B1F566D6279D93C000B49DE5 /* OnBoardingSlide.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1DB2B3B27945A650019DCCA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB2B3E27945B610019DCCA /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +201,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1DB2B3327945A370019DCCA /* Preview Assets.xcassets in Resources */,
+				B174AD11279D5EF300841271 /* RussianRail-G-Pro_39011.ttf in Resources */,
+				B174AD12279D5EF500841271 /* RussianRail-G-Pro-Bold_39007.ttf in Resources */,
 				B1DB2B3027945A370019DCCA /* Assets.xcassets in Resources */,
+				B174AD13279D5EF800841271 /* RussianRail-G-Pro-Medium_39010.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +216,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1DB2B2E27945A360019DCCA /* ContentView.swift in Sources */,
+				B1DB2B3F27945B610019DCCA /* TaskViewModel.swift in Sources */,
+				B1DB2B4127945C4C0019DCCA /* Home.swift in Sources */,
+				B1DB2B3D27945AE60019DCCA /* Task.swift in Sources */,
+				B1F566D9279D962D00B49DE5 /* OnBoarding.swift in Sources */,
+				B1F566DB279D966300B49DE5 /* OffsetPageTab.swift in Sources */,
+				B1F566D7279D93C000B49DE5 /* OnBoardingSlide.swift in Sources */,
+				B174AD08279D54D500841271 /* Splash.swift in Sources */,
+				B174AD10279D5EE400841271 /* FontFamily.swift in Sources */,
 				B1DB2B2C27945A360019DCCA /* TaskManagementApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +358,7 @@
 				DEVELOPMENT_TEAM = 9VK3969SVB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskManagement/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +389,7 @@
 				DEVELOPMENT_TEAM = 9VK3969SVB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TaskManagement/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
